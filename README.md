@@ -11,10 +11,10 @@ Extends the GMM class to include a predict_gmr method. This method uses gaussian
 3. Eeach component provides a covariance estimate as is similarly weighted
 4. Weighted estimates are summed and retured.
 
-Pros:
+**Pros:**
 - Provides a probability for each estimated Y
 
-Cons:
+**Cons:**
 - Computationally expensive for large numbers of gaussian model components. This can be reduced without much penalty in most cases by only considering only the k-closest models (by their mean).
 
 
